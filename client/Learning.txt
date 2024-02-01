@@ -6,3 +6,8 @@
         so we set manually margin to content so that it is next to Navbar.
     - It will not work when we do window.resize 
     - How to use forwardRef in Navbar
+
+3. Learn following : 
+    - Problem : Same as Learn (2)
+    - Solution : Same solution
+    - This work also on  window.resize as it not not working on Learning (2) solution

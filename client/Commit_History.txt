@@ -9,3 +9,6 @@
 3. Add Following : 
     - Partially Design of Banner Component 
     - See Learning (2)
+
+4. Add Following : 
+    - See Learning (3)
