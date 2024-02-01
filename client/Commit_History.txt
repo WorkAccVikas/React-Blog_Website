@@ -22,3 +22,6 @@
 7. Add Following : 
     - Completed Design of Banner Component (Responsive)
     - See Learning (6)
+
+8. Add Following : 
+    - Design BannerHeading Component
