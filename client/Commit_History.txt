@@ -5,3 +5,7 @@
     - Navbar Design (Responsive)
     - Install react-icons
     - Install dev-dependencies prettier prettier-plugin-tailwindcss
+
+3. Add Following : 
+    - Partially Design of Banner Component 
+    - See Learning (2)

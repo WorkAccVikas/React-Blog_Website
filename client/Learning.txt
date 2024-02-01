@@ -1,1 +1,8 @@
 1. Using react-router-dom show ErrorPage with Navbar and Without Navbar
+
+2. Learn following : 
+    - Problem : Navbar is fixed so content is behind navbar
+    - Solution : ref is passed from Home to Navbar (Parent to Child) to get height of navbar,
+        so we set manually margin to content so that it is next to Navbar.
+    - It will not work when we do window.resize 
+    - How to use forwardRef in Navbar
