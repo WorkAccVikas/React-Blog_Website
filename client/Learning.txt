@@ -22,3 +22,9 @@
     - Problem : Same as Learn (2)
     - Solution : Same solution as Learn (4)
     - This work also on  window.resize as it not not working on Learning (4) solution
+
+6. Learn following : 
+    - How to add font 
+        - Import in App.css 
+        - Add custom name for your imported font in tailwind.config.js 
+        - Used : font-customName

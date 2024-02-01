@@ -18,3 +18,7 @@
 
 6. Add Following : 
     - See Learning (5)
+
+7. Add Following : 
+    - Completed Design of Banner Component (Responsive)
+    - See Learning (6)
