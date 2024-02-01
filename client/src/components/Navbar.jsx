@@ -2,9 +2,9 @@ import { Link, NavLink } from "react-router-dom";
 import { FaFacebook, FaDribbble, FaTwitter, FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 
-import { forwardRef, useState } from "react";
+import { useState } from "react";
 
-const Navbar = forwardRef((props, ref) => {
+const Navbar = () => {
   console.log("Navbar render");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -35,10 +35,7 @@ const Navbar = forwardRef((props, ref) => {
   ];
 
   return (
-    <header
-      ref={ref}
-      className="fixed left-0 right-0 top-0 bg-black text-white"
-    >
+    <header className="fixed left-0 right-0 top-0 bg-black text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <Link to="/" className="text-xl font-bold">
           Design<span className="uppercase text-orange-500">Vkc</span>
@@ -110,7 +107,6 @@ const Navbar = forwardRef((props, ref) => {
       </div>
     </header>
   );
-});
+};
 
-Navbar.displayName = "Navbar"; // Add displayName property
 export default Navbar;
