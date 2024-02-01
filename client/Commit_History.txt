@@ -1,2 +1,7 @@
 1. Add Following : 
     - Basic Setup with routing
+
+2. Add Following : 
+    - Navbar Design (Responsive)
+    - Install react-icons
+    - Install dev-dependencies prettier prettier-plugin-tailwindcss
