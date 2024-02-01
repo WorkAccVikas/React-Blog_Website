@@ -9,7 +9,7 @@
 
 3. Learn following : 
     - Problem : Same as Learn (2)
-    - Solution : Same solution
+    - Solution : Same solution as Learn (2)
     - This work also on  window.resize as it not not working on Learning (2) solution
 
 4. Learn following : 
@@ -17,3 +17,8 @@
     - Solution : without ref, use document.get... method to get height of navbar,
         so we set manually margin to content so that it is next to Navbar.
     - It will not work when we do window.resize 
+
+5. Learn following : 
+    - Problem : Same as Learn (2)
+    - Solution : Same solution as Learn (4)
+    - This work also on  window.resize as it not not working on Learning (4) solution

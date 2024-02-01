@@ -7,9 +7,19 @@ function App() {
   const [navbarHeight, setNavbarHeight] = useState(0);
 
   useEffect(() => {
-    const height = document.getElementsByTagName("header")[0].offsetHeight;
-    console.log(`🚀 ~ useEffect ~ height:`, height);
-    setNavbarHeight(height);
+    const updateNavbarHeight = () => {
+      const height = document.getElementsByTagName("header")[0].offsetHeight;
+      console.log(`🚀 ~ useEffect ~ height:`, height);
+      setNavbarHeight(height);
+    };
+
+    updateNavbarHeight();
+
+    window.addEventListener("resize", updateNavbarHeight);
+
+    return () => {
+      window.removeEventListener("resize", updateNavbarHeight);
+    };
   }, []);
 
   return (
