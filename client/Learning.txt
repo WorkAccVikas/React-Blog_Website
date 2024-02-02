@@ -28,3 +28,8 @@
         - Import in App.css 
         - Add custom name for your imported font in tailwind.config.js 
         - Used : font-customName
+
+7. Learn following : 
+    - Solve problem when we use position: relative in EachBlogCard.
+        When we scroll Card overlapped on Navbar 
+            - Solution see App.css

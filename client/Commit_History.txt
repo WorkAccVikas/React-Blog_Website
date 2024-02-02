@@ -37,3 +37,8 @@
 10. Add Following : 
     - components/Pagination.jsx
         - Pagination Part done
+
+11. Add Following : 
+    - components/EachBlogCard.jsx
+        - Create separate components for each blog card 
+            - See Learning (7)

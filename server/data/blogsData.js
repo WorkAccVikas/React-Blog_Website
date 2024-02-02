@@ -1,5 +1,33 @@
 const data = [
   {
+    id: 1,
+    title: "Meta debuts generative AI features for advertisers",
+    image:
+      "https://techcrunch.com/wp-content/uploads/2023/10/meta-gen-ai-ads.jpg?w=430&h=230&crop=1",
+    category: "AI",
+    author: "Sarah Perez",
+    authorPic: "author1.jpg",
+    published_date: "October 4, 2023",
+    reading_time: "5 minutes",
+    content:
+      "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
+    tags: ["Blogging", "Writing"],
+  },
+  {
+    id: 2,
+    title: "Ask Sophie: What are the options for replacing an L-1A visa?",
+    image:
+      "https://techcrunch.com/wp-content/uploads/2021/01/dear-sophie-immigration-maze-3.jpg?w=430&h=230&crop=1",
+    category: "Work",
+    author: "Sophie Alcorn",
+    authorPic: "author1.jpg",
+    published_date: "October 4, 2023",
+    reading_time: "4 minutes",
+    content:
+      "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
+    tags: ["Work", "Blogging"],
+  },
+  {
     id: 3,
     title:
       "Making wearable medical devices more patient-friendly with Professor Esther Rodriguez-Villegas from Acurable",
@@ -26,7 +54,9 @@ const data = [
     published_date: "2023-10-01",
     reading_time: "5 minutes",
     content:
-      "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, “Every company will be a fintech company.” Specifically, Strange projected that — in the not-too-d...",
+      "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, ",
+    "Every company will be a fintech company.":
+      " Specifically, Strange projected that — in the not-too-d...",
     tags: ["Fintech", "Writing"],
   },
   {
@@ -394,8 +424,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -409,8 +441,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -423,8 +457,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -437,8 +473,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -452,8 +490,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -466,8 +506,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -481,8 +523,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -495,8 +539,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -509,8 +555,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -524,8 +572,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -539,8 +589,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -554,8 +606,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -569,8 +623,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -583,8 +639,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -597,8 +655,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -612,8 +672,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -627,22 +689,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-    tags: ["Startups", "Writing"],
-  },
-  {
-    id: 84,
-    title: "Ten Key Labs wants to simplify managing equity for startups",
-    image:
-      "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1359478309.jpg?w=430&h=230&crop=1",
-    category: "Startups",
-    author: "Natasha Lomas",
-    authorPic: "author1.jpg",
-    published_date: "2023-10-01",
-    reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -655,8 +705,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -670,38 +722,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-    tags: ["Startups", "Writing"],
-  },
-  {
-    id: 85,
-    title:
-      "Unitary AI picks up $15M for its multimodal approach to video content moderation",
-    image:
-      "https://techcrunch.com/wp-content/uploads/2023/10/Screenshot-2023-10-03-at-01.44.37.png?w=430&h=230&crop=1",
-    category: "Health",
-    author: "Natasha Lomas",
-    authorPic: "author1.jpg",
-    published_date: "2023-10-01",
-    reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-    tags: ["Startups", "Writing"],
-  },
-  {
-    id: 86,
-    title:
-      "Tesla Autopilot arbitration win could set legal benchmark in auto industry",
-    image:
-      "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1494766819.jpg?w=430&h=230&crop=1",
-    category: "Tech",
-    author: "Natasha Lomas",
-    authorPic: "author1.jpg",
-    published_date: "2023-10-01",
-    reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -715,8 +739,10 @@ const data = [
     authorPic: "author1.jpg",
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
     tags: ["Startups", "Writing"],
   },
   {
@@ -917,7 +943,9 @@ const data = [
     published_date: "2023-10-01",
     reading_time: "5 minutes",
     content:
-      "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, “Every company will be a fintech company.” Specifically, Strange projected that — in the not-too-d...",
+      "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, ",
+    "Every company will be a fintech company.":
+      " Specifically, Strange projected that — in the not-too-d...",
     tags: ["Fintech", "Writing"],
   },
   {
@@ -1186,34 +1214,6 @@ const data = [
     tags: ["Startups", "Writing"],
   },
   {
-    id: 1,
-    title: "Meta debuts generative AI features for advertisers",
-    image:
-      "https://techcrunch.com/wp-content/uploads/2023/10/meta-gen-ai-ads.jpg?w=430&h=230&crop=1",
-    category: "AI",
-    author: "Sarah Perez",
-    authorPic: "author1.jpg",
-    published_date: "October 4, 2023",
-    reading_time: "5 minutes",
-    content:
-      "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
-    tags: ["Blogging", "Writing"],
-  },
-  {
-    id: 2,
-    title: "Ask Sophie: What are the options for replacing an L-1A visa?",
-    image:
-      "https://techcrunch.com/wp-content/uploads/2021/01/dear-sophie-immigration-maze-3.jpg?w=430&h=230&crop=1",
-    category: "Work",
-    author: "Sophie Alcorn",
-    authorPic: "author1.jpg",
-    published_date: "October 4, 2023",
-    reading_time: "4 minutes",
-    content:
-      "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
-    tags: ["Work", "Blogging"],
-  },
-  {
     id: 81,
     title:
       "In latest Cruise incident, video shows pedestrian struck by human-driven car, then run over by robotaxi",
@@ -1256,6 +1256,56 @@ const data = [
       "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
     tags: ["Work", "Blogging"],
   },
+  {
+    id: 84,
+    title: "Ten Key Labs wants to simplify managing equity for startups",
+    image:
+      "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1359478309.jpg?w=430&h=230&crop=1",
+    category: "Startups",
+    author: "Natasha Lomas",
+    authorPic: "author1.jpg",
+    published_date: "2023-10-01",
+    reading_time: "6 minutes",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    tags: ["Startups", "Writing"],
+  },
+  {
+    id: 85,
+    title:
+      "Unitary AI picks up $15M for its multimodal approach to video content moderation",
+    image:
+      "https://techcrunch.com/wp-content/uploads/2023/10/Screenshot-2023-10-03-at-01.44.37.png?w=430&h=230&crop=1",
+    category: "Health",
+    author: "Natasha Lomas",
+    authorPic: "author1.jpg",
+    published_date: "2023-10-01",
+    reading_time: "6 minutes",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    tags: ["Startups", "Writing"],
+  },
+  {
+    id: 86,
+    title:
+      "Tesla Autopilot arbitration win could set legal benchmark in auto industry",
+    image:
+      "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1494766819.jpg?w=430&h=230&crop=1",
+    category: "Tech",
+    author: "Natasha Lomas",
+    authorPic: "author1.jpg",
+    published_date: "2023-10-01",
+    reading_time: "6 minutes",
+    content: "The Arc browser is ",
+    finally: " launching its AI-powered features under the ",
+    "Arc Max":
+      " moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+    tags: ["Startups", "Writing"],
+  },
 ];
 
-module.exports = data
+module.exports = data;
