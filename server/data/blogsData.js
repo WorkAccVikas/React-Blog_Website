@@ -632,7 +632,7 @@ const data = [
     tags: ["Startups", "Writing"],
   },
   {
-    id: 45,
+    id: 84,
     title: "Ten Key Labs wants to simplify managing equity for startups",
     image:
       "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1359478309.jpg?w=430&h=230&crop=1",
@@ -675,7 +675,7 @@ const data = [
     tags: ["Startups", "Writing"],
   },
   {
-    id: 47,
+    id: 85,
     title:
       "Unitary AI picks up $15M for its multimodal approach to video content moderation",
     image:
@@ -690,7 +690,7 @@ const data = [
     tags: ["Startups", "Writing"],
   },
   {
-    id: 47,
+    id: 86,
     title:
       "Tesla Autopilot arbitration win could set legal benchmark in auto industry",
     image:

@@ -25,3 +25,11 @@
 
 8. Add Following : 
     - Design BannerHeading Component
+
+9. Add Following : 
+    - components/BlogPage.jsx
+        - Fetched all blogs data from API in stored in blogs variable 
+        - passed blogs to components/BlogCards.jsx
+    - components/BlogCards.jsx
+        - map on blogs and show as card like UI.
+        - Here, no Card Component present.
