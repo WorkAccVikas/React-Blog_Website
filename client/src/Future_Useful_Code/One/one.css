@@ -19,13 +19,21 @@
   padding: 5px 10px;
 }
 
-.pagination li.activePagination {
+.pagination li.activePagination,
+a.activePagination {
   background-color: rgb(255, 106, 0);
+  cursor: not-allowed;
 }
 
 .pagination button:disabled {
   color: #fff;
   cursor: not-allowed;
+  pointer-events: none;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 button {
