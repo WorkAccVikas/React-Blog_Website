@@ -45,3 +45,8 @@
 
 12. Add Following : 
     - Design components/CategorySelection.jsx
+
+13. Add Following : 
+    - Design components/Sidebar.jsx
+        - Design Latest Blogs and Popular Blogs Section 
+    - Add BlogPage component in Page/Home.jsx

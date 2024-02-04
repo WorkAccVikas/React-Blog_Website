@@ -3,6 +3,7 @@ import { useState } from "react";
 import BlogCards from "./BlogCards";
 import Pagination from "./Pagination";
 import CategorySelection from "./CategorySelection";
+import Sidebar from "./Sidebar";
 
 function BlogPage() {
   console.log("BlogPage render");
@@ -54,13 +55,19 @@ function BlogPage() {
       </div>
 
       {/* blogCards Section */}
-      <div>
+      <div className="flex flex-col gap-12 lg:flex-row">
+        {/* Blog Card Component */}
         <BlogCards
           blogs={blogs}
           currentPage={currentPage}
           selectedCategory={selectedCategory}
           pageSize={pageSize}
         />
+
+        {/* Sidebar Component */}
+        <div>
+          <Sidebar />
+        </div>
       </div>
 
       {/* Pagination Section */}
