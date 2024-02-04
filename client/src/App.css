@@ -38,3 +38,7 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.active-button {
+  color: #fc3c1a;
+}

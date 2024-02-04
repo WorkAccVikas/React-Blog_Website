@@ -4,6 +4,8 @@ import EachBlogCard from "./EachBlogCard";
 
 function BlogCards({ blogs, currentPage, selectedCategory, pageSize }) {
   console.log("BlogCards render");
+
+  console.log("Blogs Length in BlogCards = ", blogs)
   const filteredBlogs = blogs
     .filter((blog) => !selectedCategory || blog.category === selectedCategory)
     .slice((currentPage - 1) * pageSize, currentPage * pageSize);

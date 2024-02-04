@@ -42,3 +42,6 @@
     - components/EachBlogCard.jsx
         - Create separate components for each blog card 
             - See Learning (7)
+
+12. Add Following : 
+    - Design components/CategorySelection.jsx
