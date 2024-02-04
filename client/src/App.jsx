@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   const [navbarHeight, setNavbarHeight] = useState(0);
@@ -26,6 +27,7 @@ function App() {
     <div className="" style={{ marginTop: `${navbarHeight}px` }}>
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 }

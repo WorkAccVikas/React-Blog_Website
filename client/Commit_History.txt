@@ -50,3 +50,6 @@
     - Design components/Sidebar.jsx
         - Design Latest Blogs and Popular Blogs Section 
     - Add BlogPage component in Page/Home.jsx
+
+14. Add Following : 
+    - Design Footer Component
