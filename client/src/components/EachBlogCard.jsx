@@ -6,7 +6,10 @@ function EachBlogCard({ blog }) {
   console.log("EachBlogCard render");
 
   return (
-    <Link className="relative cursor-pointer rounded p-5 shadow-lg">
+    <Link
+      className="relative cursor-pointer rounded p-5 shadow-lg"
+      to={`/blogs/${blog.id}`}
+    >
       <div className="absolute bg-red-500 p-5">{blog.id}</div>
       <div>
         <img src={blog.image} alt="" className="w-full" />

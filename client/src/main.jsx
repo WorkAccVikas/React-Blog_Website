@@ -10,6 +10,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Services from "./pages/Services.jsx";
 import Error from "./pages/Error.jsx";
+import SingleBlog from "./pages/SingleBlog.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,12 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/blogs/:id",
+        element: <SingleBlog />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/blogs/${params.id}`),
       },
       // DESC : Unknown route : Navbar + Error Page
       {
